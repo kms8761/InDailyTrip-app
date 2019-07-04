@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.dudxk.gpsapplication.CheckableLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_weight="2"
+        android:text="New Text"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="New Text"
+        android:textSize="13sp"
+        android:textColor="@color/colorDarkGray"/>
+
+    <CheckBox
+        android:id="@+id/recordCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_weight="1"/>
+
+</com.example.dudxk.gpsapplication.CheckableLinearLayout>

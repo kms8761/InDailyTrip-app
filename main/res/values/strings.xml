@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">GPSApplication</string>
+    <string name="title_activity_new">NewActivity</string>
+    <string name="textview">TextView</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="in_daily_trip">In Daily Trip</string>
+    <string name="record">기록하기</string>
+    <string name="expense">소비/지출</string>
+    <string name="dailyrecord">데일리 기록</string>
+    <string name="record_start">기록시작</string>
+    <string name="record_stop">기록중지</string>
+    <string name="record_save">저장</string>
+    <string name="title_activity_record">RecordActivity</string>
+
+
+    <string name="facebook_app_id"></string>
+    <string name="fb_login_protocol_scheme"></string>
+
+    <!-- Sign In -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signin_email">회원가입 및 이메일 로그인</string>
+    <string name="signin_google">Google으로 로그인</string>
+    <string name="signin_facebook">Facebook으로 로그인</string>
+    <string name="signin_twitter">Twitter으로 로그인</string>
+    <string name="signup_complete">회원가입 성공</string>
+    <string name="signin_complete">로그인 성공</string>
+    <string name="signout">로그아웃</string>
+    <string name="signout_success">로그아웃 성공</string>
+    <string name="signout_fail">로그아웃 실패</string>
+    <string name="signout_fail_null">이메일과 비밀번호를 입력해주세요</string>
+
+    <!-- Bottom Navigation View -->
+    <string name="home">home</string>
+    <string name="search">Search</string>
+    <string name="gallery">Gallery</string>
+    <string name="favorite">Favorite</string>
+    <string name="account">Account</string>
+
+    <!-- Account -->
+    <string name="post">게시물</string>
+    <string name="following">팔로잉</string>
+    <string name="follower">팔로워</string>
+    <string name="follow">팔로우</string>
+    <string name="follow_cancel">팔로우 취소</string>
+    <string name="profile">Profile</string>
+    <string name="count_0">0</string>
+
+    <!-- Alarm -->
+    <string name="alarm_favorite">님이 좋아요를 눌렀습니다.</string>
+    <string name="alarm_who">님이 메시지를 남겼습니다</string>
+    <string name="alarm_comment">님이 메세지를 남겼습니다.</string>
+    <string name="alarm_follow">님이 당신의 계정을 팔로워하기 시작했습니다.</string>
+
+    <!-- Comment -->
+    <string name="send">보내기</string>
+
+    <!-- Add Photo -->
+    <string name="upload_image">사진 올리기</string>
+    <string name="hint_image_content">내용</string>
+    <string name="upload_success">업로드 성공</string>
+    <string name="upload_fail">업로드 실패</string>
+
+    <!-- Toolbar -->
+    <string name="back">Back</string>
+    <string name="recordtrip">여행 기록</string>
+    <string name="showcourse">코스보기</string>
+    <string name="modify">수정</string>
+    <string name="upload">게시</string>
+    <string name="edittext">제목을 입력하세요</string>
+
+    <!-- etc -->
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="inputcoment">내용을 입력하세요</string>
+    <string name="uploadcomment">올리기</string>
+
+
+</resources>
+
+

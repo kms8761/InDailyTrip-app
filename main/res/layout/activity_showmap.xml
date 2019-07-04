@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/layout_showmap"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:background="#ffffff"
+tools:context=".ShowMapActivity">
+
+<fragment
+    android:id="@+id/showmap"
+    class="com.google.android.gms.maps.MapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="460dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true" />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_below="@+id/showmap">
+
+    <LinearLayout
+        android:id="@+id/showmap_linear1"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/showmap_linear2"
+        android:layout_marginRight="95dp">
+
+        <ImageButton
+            android:id="@+id/Location_choice"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/choicelocation2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="10sp"
+            android:text="장소 선택"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/showmap_linear2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+
+        <ImageButton
+            android:id="@+id/ShowPlaces"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/showplaces2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="10sp"
+            android:text="주변 검색"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/showmap_linear3"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/showmap_linear2"
+        android:layout_marginLeft="95dp">
+
+        <ImageButton
+            android:id="@+id/UploadCourse"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/uploadcourse2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="10sp"
+            android:text="업로드"/>
+
+    </LinearLayout>
+</RelativeLayout>
+
+</RelativeLayout>

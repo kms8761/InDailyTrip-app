@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/MainImage"
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:background="@drawable/msg_main"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+   <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/map">
+
+       <LinearLayout
+           android:id="@+id/linear1"
+           android:orientation="vertical"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_marginLeft="40dp">
+
+          <ImageButton
+              android:id="@+id/Record"
+              android:layout_width="40dp"
+              android:layout_height="40dp"
+              android:layout_gravity="center"
+              android:background="@drawable/savecourse" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:textSize="10sp"
+               android:text="기록"/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:id="@+id/linear2"
+           android:orientation="vertical"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_toRightOf="@id/linear1"
+           android:layout_marginLeft="45dp">
+
+           <ImageButton
+               android:id="@+id/Sns"
+               android:layout_width="40dp"
+               android:layout_height="36dp"
+               android:layout_gravity="center"
+               android:background="@drawable/sns" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:textSize="12sp"
+               android:text="sns"/>
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:id="@+id/linear3"
+           android:orientation="vertical"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_toRightOf="@id/linear2"
+           android:layout_marginLeft="45dp">
+
+           <ImageButton
+               android:id="@+id/DailyRecord"
+               android:layout_width="40dp"
+               android:layout_height="40dp"
+               android:layout_gravity="center"
+               android:background="@drawable/dailyrecord" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:textSize="10sp"
+               android:text="여행기록"/>
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:id="@+id/linear4"
+           android:orientation="vertical"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_toRightOf="@id/linear3"
+           android:layout_marginLeft="45dp">
+
+           <ImageButton
+               android:id="@+id/Tip"
+               android:layout_width="40dp"
+               android:layout_height="37dp"
+               android:layout_gravity="center"
+               android:background="@drawable/tip"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:textSize="10sp"
+               android:text="꿀팁"/>
+
+       </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
